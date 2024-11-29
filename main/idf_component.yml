@@ -1,0 +1,21 @@
+description: ESP-BSP SquareLine LVGL Example
+
+targets:
+    - esp32c3
+
+dependencies:
+  espressif/lis2dh12: "^0.1.0"
+  espressif/pid_ctrl: "^0.2.0"
+  idf: ">=4.4"
+
+  esp32_c3_reflow:
+    override_path: "../components/esp32_c3_reflow"
+
+  Adafruit_HUSB238:
+    override_path: "../components/Adafruit_HUSB238"
+
+  ch32x035_pd:
+    override_path: "../components/ch32x035_pd"
+
+  ina226:
+    override_path: "../components/ina226"

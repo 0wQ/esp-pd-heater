@@ -1,0 +1,9 @@
+SET(SOURCES screens/ui_Screen1.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    fonts/ui_font_NovaMono22.c
+    fonts/ui_font_silver12.c
+    fonts/ui_font_silver20.c)
+
+add_library(ui ${SOURCES})

@@ -1,0 +1,31 @@
+version: "1.1.0~1"
+
+targets:
+  - esp32c3
+
+tags:
+  - bsp
+
+dependencies:
+  idf: ">=5.0.0"
+
+  lvgl/lvgl: "~8.3.0"
+
+  esp_lvgl_port:
+    public: true
+    version: "^2"
+
+  esp_lcd_st7735:
+    override_path: "../../components/esp_lcd_st7735"
+    # git: https://gitee.com/nakano-azusa/esp_lcd_st7735.git
+    # public: true
+
+  button:
+    public: true
+    version: ">=2,<4.0"
+
+  knob:
+    version: "0.1.4"
+
+  beep:
+    override_path: "../../components/beep"

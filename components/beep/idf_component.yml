@@ -1,0 +1,6 @@
+description: buzzer
+dependencies:
+  idf: ">=4.0"
+  hayschan/buzzer:
+    version: "^1.0.0"
+    public: true
